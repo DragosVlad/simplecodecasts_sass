@@ -44,6 +44,10 @@ GEM
       sass (~> 3.2)
     builder (3.2.2)
     byebug (9.0.5)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.8)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -87,6 +91,7 @@ GEM
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
     mime-types (2.99.2)
+    mini_magick (4.5.1)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
@@ -95,6 +100,11 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     orm_adapter (0.5.0)
+    paperclip (4.2.1)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
     pg (0.18.4-x86-mingw32)
     pkg-config (1.1.7)
     rack (1.6.4)
@@ -193,6 +203,8 @@ DEPENDENCIES
   font-awesome-sass (= 4.2.0)
   jbuilder (~> 2.0)
   jquery-rails
+  mini_magick
+  paperclip (= 4.2.1)
   pg
   rails (= 4.2.6)
   rails_12factor
