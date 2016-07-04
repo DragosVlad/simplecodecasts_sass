@@ -45,9 +45,6 @@ gem 'stripe', '1.16.1'
 # Use figaro to hide secret keys
 gem 'figaro', '1.0.0'
 
-
-gem "mini_magick"
-
 # Use paperclip for image uploads
 gem 'paperclip', '4.2.1'
 
