@@ -21,7 +21,7 @@
 
 
 
-		<% if true #current_user.plan_id == 2 %>
+		<% if current_user.plan_id == 2 %>
 
 			<div class="well contact-info profile-block">
 				<h3>Contact Information</h3>
@@ -29,7 +29,6 @@
 				<br>
 				<%= @user.profile.contact_email %>
 				<br>
-
 			</div>
 
 		<% end %>
